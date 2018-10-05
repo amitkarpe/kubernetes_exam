@@ -2,9 +2,9 @@
 
 [TOC]
 
-[Create daemonset](https://github.com/amitkarpe/kubernetes_exam/blob/master/docs/readme.md#create-daemonset)
+[Create daemonset](#create-daemonset)
 
-[Get daemonset details](https://github.com/amitkarpe/kubernetes_exam/blob/master/docs/readme.md#get-daemonset-details)
+[Get daemonset details](#get-daemonset-details)
 
 [Get all daemonset list](#get-all-daemonset-list)
 
@@ -63,5 +63,6 @@ kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   1
 user@MASTER:~/ex$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3Mzg2MDA1LDM2MzIyMTc2M119
+eyJoaXN0b3J5IjpbMTE4NTkzOTk1MSw0NTczODYwMDUsMzYzMj
+IxNzYzXX0=
 -->
