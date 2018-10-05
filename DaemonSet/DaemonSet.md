@@ -2,7 +2,7 @@
 
  - Create daemonset
 
-```terminal
+```shell session
 user@MASTER:~/ex$ kubectl create -f https://k8s.io/examples/controllers/daemonset.yaml
 daemonset.apps/fluentd-elasticsearch created
 ```
@@ -48,6 +48,6 @@ kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   1
 user@MASTER:~/ex$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzg2NTA2OCwtNTE5MzUwMjU3LC03OT
-IyOTYxODUsMjA0NDM1MzMzOV19
+eyJoaXN0b3J5IjpbLTk4ODQ1MDA5MiwyMDMzODY1MDY4LC01MT
+kzNTAyNTcsLTc5MjI5NjE4NSwyMDQ0MzUzMzM5XX0=
 -->
