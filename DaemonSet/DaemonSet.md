@@ -2,25 +2,18 @@
 
  - Create daemonset
 
----
+```terminal
 user@MASTER:~/ex$ kubectl create -f https://k8s.io/examples/controllers/daemonset.yaml
 daemonset.apps/fluentd-elasticsearch created
-
----
-
+```
 - Get daemonset details
 
+```shell
 user@MASTER:~$ kubectl get ds --all-namespaces --show-labels=true -l k8s-app=fluentd-logging
 NAMESPACE     NAME                    DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE     LABELS
 kube-system   fluentd-elasticsearch   3         3         3       3            3           <none>          7m50s   k8s-app=fluentd-logging
-
----
-
-
-
-
-
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NzIxMDQ4MCwyMDQ0MzUzMzM5XX0=
+eyJoaXN0b3J5IjpbLTc5MjI5NjE4NSwyMDQ0MzUzMzM5XX0=
 -->
