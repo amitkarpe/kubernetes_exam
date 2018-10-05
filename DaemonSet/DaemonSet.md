@@ -6,6 +6,7 @@
     user@MASTER:~/ex$ kubectl create -f https://k8s.io/examples/controllers/daemonset.yaml
     daemonset.apps/fluentd-elasticsearch created
 
+
 - Get daemonset details
 
     user@MASTER:~$ kubectl get ds --all-namespaces --show-labels=true -l k8s-app=fluentd-logging
@@ -17,5 +18,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwNzQzMTE3XX0=
+eyJoaXN0b3J5IjpbMjA0NDM1MzMzOV19
 -->
