@@ -1,8 +1,9 @@
-Use kubectl completion for bash
+ - Use kubectl completion for bash
 
     echo "source <(kubectl completion bash)" >> ~/.bashrc
 
-Best resource is cheatsheet from kubernetes.io
+
+Ref: Best resource is [cheatsheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/) from kubernetes.io
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzU0ODg5MV19
+eyJoaXN0b3J5IjpbLTE5NzkwNTI3OTgsMTAxMzU0ODg5MV19
 -->
