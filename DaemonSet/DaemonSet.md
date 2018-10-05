@@ -31,12 +31,13 @@ kube-system   kube-proxy                3         3         3       3           
 
 - Get daemonset list by filtering lables
 
-```ShellSession
+```Shell
 user@MASTER:~$ kubectl get ds --all-namespaces --show-labels=true -l k8s-app=fluentd-logging
 NAMESPACE     NAME                    DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE     LABELS
 kube-system   fluentd-elasticsearch   3         3         3       3            3           <none>          7m50s   k8s-app=fluentd-logging
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDUxNTcxOSwtNzkyMjk2MTg1LDIwND
+eyJoaXN0b3J5IjpbLTUxOTM1MDI1NywtNzkyMjk2MTg1LDIwND
 QzNTMzMzldfQ==
 -->
