@@ -1,5 +1,13 @@
 
 
+[Create](link)
+
+[Get1](link)
+
+[Get2](link)
+
+[Delete](link)
+
  - Create daemonset
 
 ```shell_session
