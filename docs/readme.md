@@ -1,7 +1,5 @@
 # Table Of Content
 
-[TOC]
-
 [Create daemonset](#create-daemonset)
 
 [Get daemonset details](#get-daemonset-details)
@@ -63,6 +61,6 @@ kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   1
 user@MASTER:~/ex$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTkzOTk1MSw0NTczODYwMDUsMzYzMj
-IxNzYzXX0=
+eyJoaXN0b3J5IjpbLTE1OTM3Mjc2NTEsNDU3Mzg2MDA1LDM2Mz
+IyMTc2M119
 -->
