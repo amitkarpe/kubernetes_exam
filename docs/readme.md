@@ -15,7 +15,7 @@
 
 ### Create daemonset
 
-```shell_session
+```ShellSession
 user@MASTER:~/ex$ kubectl create -f https://k8s.io/examples/controllers/daemonset.yaml
 daemonset.apps/fluentd-elasticsearch created
 ```
@@ -44,7 +44,7 @@ kube-system   kube-proxy                3         3         3       3           
 
 ### Get daemonset list by filtering lables
 
-```Shell
+```ShellSession
 user@MASTER:~$ kubectl get ds --all-namespaces --show-labels=true -l k8s-app=fluentd-logging
 NAMESPACE     NAME                    DESIRED   CURRENT   READY   UP-TO-DATE   AVAILABLE   NODE SELECTOR   AGE     LABELS
 kube-system   fluentd-elasticsearch   3         3         3       3            3           <none>          7m50s   k8s-app=fluentd-logging
@@ -52,7 +52,7 @@ kube-system   fluentd-elasticsearch   3         3         3       3            3
 
 ###  Get pod lists which are running these ds
 
-```
+```ShellSession
 user@MASTER:~/ex$ kubectl get pods  --all-namespaces -o wide --show-labels=true -l name=fluentd-elasticsearch
 NAMESPACE     NAME                          READY   STATUS    RESTARTS   AGE   IP            NODE                         NOMINATED NODE   LABELS
 kube-system   fluentd-elasticsearch-7v89q   1/1     Running   0          35m   10.244.1.73   amitkarpe3.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
@@ -61,5 +61,5 @@ kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   1
 user@MASTER:~/ex$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjYyODUwMF19
+eyJoaXN0b3J5IjpbMzYzMjIxNzYzXX0=
 -->
