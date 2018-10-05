@@ -1,0 +1,3 @@
+Use 
+
+echo "source <(kubectl completion bash)" >> ~/.bashrc
