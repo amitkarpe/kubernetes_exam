@@ -37,7 +37,17 @@ NAMESPACE     NAME                    DESIRED   CURRENT   READY   UP-TO-DATE   A
 kube-system   fluentd-elasticsearch   3         3         3       3            3           <none>          7m50s   k8s-app=fluentd-logging
 ```
 
+- Get pod lists which are running these ds
+
+```
+user@MASTER:~/ex$ kubectl get pods  --all-namespaces -o wide --show-labels=true -l name=fluentd-elasticsearch
+NAMESPACE     NAME                          READY   STATUS    RESTARTS   AGE   IP            NODE                         NOMINATED NODE   LABELS
+kube-system   fluentd-elasticsearch-7v89q   1/1     Running   0          35m   10.244.1.73   amitkarpe3.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
+kube-system   fluentd-elasticsearch-l8gwq   1/1     Running   0          35m   10.244.2.46   amitkarpe2.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
+kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   10.244.0.14   amitkarpe1.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
+user@MASTER:~/ex$
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTM1MDI1NywtNzkyMjk2MTg1LDIwND
-QzNTMzMzldfQ==
+eyJoaXN0b3J5IjpbMjAzMzg2NTA2OCwtNTE5MzUwMjU3LC03OT
+IyOTYxODUsMjA0NDM1MzMzOV19
 -->
