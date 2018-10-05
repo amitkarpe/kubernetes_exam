@@ -1,5 +1,10 @@
 
 
+# Create daemonset
+# Create daemonset2
+# Create daemonset3
+
+
  - Create daemonset
 
 ```shell_session
@@ -48,6 +53,7 @@ kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   1
 user@MASTER:~/ex$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIwMzQxODcsMjAzMzg2NTA2OCwtNT
-E5MzUwMjU3LC03OTIyOTYxODUsMjA0NDM1MzMzOV19
+eyJoaXN0b3J5IjpbLTEyMDQxNzk3MzcsLTEyNzIwMzQxODcsMj
+AzMzg2NTA2OCwtNTE5MzUwMjU3LC03OTIyOTYxODUsMjA0NDM1
+MzMzOV19
 -->
