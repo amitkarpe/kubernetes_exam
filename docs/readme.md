@@ -59,8 +59,8 @@ kube-system   fluentd-elasticsearch-7v89q   1/1     Running   0          35m   1
 kube-system   fluentd-elasticsearch-l8gwq   1/1     Running   0          35m   10.244.2.46   amitkarpe2.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
 kube-system   fluentd-elasticsearch-w224f   1/1     Running   0          35m   10.244.0.14   amitkarpe1.mylabserver.com   <none>           controller-revision-hash=7474489b7b,name=fluentd-elasticsearch,pod-template-generation=1
 user@MASTER:~/ex$
-```
+```[scheduling](scheduling)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM3Mjc2NTEsNDU3Mzg2MDA1LDM2Mz
-IyMTc2M119
+eyJoaXN0b3J5IjpbMTY1MTQ5MTM5NCwtMTU5MzcyNzY1MSw0NT
+czODYwMDUsMzYzMjIxNzYzXX0=
 -->
