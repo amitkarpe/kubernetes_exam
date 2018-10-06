@@ -1,6 +1,6 @@
 ### Code
 
-```ShellSession
+```yaml
 user@MASTER:~/ex$ cat scheduling_pod2.yaml
 apiVersion: v1
 kind: Pod
@@ -47,5 +47,5 @@ busybox-sleep2   1/1     Running   0          107s   10.244.1.81   amitkarpe3.my
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzIwNTQxXX0=
+eyJoaXN0b3J5IjpbLTEyNzE5MTE0NThdfQ==
 -->
