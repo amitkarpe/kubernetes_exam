@@ -1,4 +1,26 @@
 
+### Code scheduling_pod2.yaml
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep2
+  labels:
+    sub: scheduling
+    type: exercise
+spec:
+  nodeSelector:
+    name: node3
+  containers:
+   - name: busybox
+     image: busybox
+     command:
+       - sleep
+       - "100"
+
+```
+
 ### Created
 
 ```ShellSession
@@ -24,3 +46,6 @@ busybox-sleep1   1/1     Running   0          50s    10.244.1.82   amitkarpe3.my
 busybox-sleep2   1/1     Running   0          107s   10.244.1.81   amitkarpe3.mylabserver.com   <none>           sub=scheduling,type=exercise
 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjg5NDU3NzY3XX0=
+-->
