@@ -16,6 +16,11 @@
 <script src="https://gist.github.com/benbalter/5555251.js"></script>
 <script src="https://gist.github.com/benbalter/5555251.js?file=gist.md"></script>
 
+{% gist c58c44c1420142f8486aabdd2af8a421 gist.md %}
+
+### gitlab snippet
+<script src="https://gitlab.com/amitkarpe/awx/snippets/1760618.js"></script>
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTQzMTgzNzMxMiw3NDc1MDMxODMsMTA4MT
 I2NTc4MywtMTU5MzcyNzY1MSw0NTczODYwMDUsMzYzMjIxNzYz
