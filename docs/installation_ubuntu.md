@@ -1,5 +1,6 @@
 ## On Cluster Master
 
+```bash
 sudo swapoff -a
 sudo apt-get update
 sudo apt-get install docker.io -y
@@ -21,13 +22,17 @@ mkdir -p $HOME/.kube; sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config; 
 
 #sudo kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 sudo kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/v0.9.1/Documentation/kube-flannel.yml
-
+```
 
 kubectl taint nodes --all node-role.kubernetes.io/master-
 
 1 node(s) didn't match node selector, 1 node(s) had taints that the pod didn't tolerate.
 
+
 ## On Node
 
+```bash
 sudo kubeadm join XXX
+```
+
 
